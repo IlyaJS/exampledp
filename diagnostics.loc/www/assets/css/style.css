@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("./SFProDisplay-Thin.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/* Стили текста */
+
+.vendorfontfamily {
+    font-family: "SF Pro Display" !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
+}
+
+
+/* стили к оформлению body контента */
+
+.vendorlogo {
+    font-style: italic !important;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.vendorcolorlogo {
+    text-decoration: none;
+    color: white;
+}
+
+.vendorcolorlogo:hover {
+    text-decoration: none;
+    color: greenyellow !important;
+}
+
+.fab {
+    color: #6c757d !important;
+    padding-left: 50px;
+}
+
+.fab:hover {
+    color: blue !important;
+}
+
+.main_text_1 {
+    font-size: 38px;
+    line-height: 45px;
+    color: #1D1D1D;
+}
+
+.main_text_2 {
+    font-size: 18px;
+    line-height: 170%;
+    color: #282828;
+}
+
+.container_poz_fluid {
+    margin-top: 5%;
+}
+
+
+/* стили кнопки диагностики */
+
+.showContent_margin {
+    padding-left: 160px;
+}
+
+.showContentcard_margin {
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.showContent {
+    margin-top: 36px;
+    font-size: 17px;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: bolder;
+    width: 180px;
+    height: 60px;
+    background-color: white;
+    border: 0.5px solid #1C1C1C;
+    box-sizing: border-box;
+    cursor: pointer !important;
+}
+
+.showContent:hover {
+    margin-top: 36px;
+    font-size: 17px;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: bolder;
+    width: 180px;
+    height: 60px;
+    background-color: #1C1C1C;
+    color: white;
+    border: 0.5px solid #1C1C1C;
+    box-sizing: border-box;
+    cursor: pointer !important;
+}
+
+
+/* Стили форм авторизации и регистрации */
+
+.vendorformaut {
+    padding-left: 20% !important;
+    padding-right: 20% !important;
+}
+
+.msg {
+    border: 2px solid #ffa908;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+a.logout {
+    color: red !important;
+}
+
+
+/* Стили списка меню header */
+
+ul>li {
+    font-size: 20px;
+}
+
+a.vendor_header_li {
+    color: white !important;
+}
+
+a.vendor_header_li:hover {
+    color: greenyellow!important;
+    text-decoration: 0.5px underline !important;
+    ;
+}
+
+a.vendor_header_listatus {
+    color: greenyellow !important;
+}
+
+a.vendor_header_listatus1 {
+    color: lightslategrey !important;
+}
+
+.vendorheaderlogo {
+    padding-left: 25px !important;
+}
